@@ -25,9 +25,9 @@
             function checkNumber() {
                 var input = document.getElementById("input").value;
                 var result = document.getElementById("result");
-                if (input > dNumber) {
+                if (input < dNumber) {
                     result.innerText = "Higher";
-                } else if (input < dNumber) {
+                } else if (input > dNumber) {
                     result.innerText = "Lower";
                 } else {
                     result.innerText = "You are correct!";
