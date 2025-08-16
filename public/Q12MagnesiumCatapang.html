@@ -1,0 +1,32 @@
+<html>
+<body>
+
+
+    <h2>Q1 2nd Graded Exercise submitted by Renz Catapang of <br> 9Magnesium</h2>
+    <label>  Meal Price:
+        <input id="mp"/>
+    </label><br>
+
+    <label>Tip:
+        <input id="tip"/>
+    </label><br>
+
+    <label>  Service Charge:
+        <input id="sc"/>
+    </label><br>
+    <span id="totalcost"></span>
+    <br><button onclick="totalMeal()">Accept Input</button>
+    <br><br>
+    <script>
+        function totalMeal() {
+           let mp = parseFloat(document.getElementById("mp").value);
+           let tip = parseFloat(document.getElementById("tip").value);
+           let sc = parseFloat(document.getElementById("sc").value);
+
+           let totalcost = mp + tip + (sc / 100 * mp);
+           document.getElementById("totalcost").innerText = "Total Meal: " + totalcost.toFixed(2);
+    }   
+    </script>
+
+</body>
+</html>
