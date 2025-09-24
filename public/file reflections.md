@@ -1,0 +1,9 @@
+## List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
+1. Comparison Operators are relatively easy topic to understand and a vital one in programming. This was already taught to us last year for C++, so it is already a well known topic for me by the start of Computer Science 3. However, there are some differences between C++ and Javascript such as how 1=='1' is considered a true statement which could harbor some confusion when not known or understood. Despite these noticable variations, Similarities are still retained like the format for greater/less than or equal to operators aswell as the === for strict equality in Javascript which is the same as the C++ == operator.
+2. Logical Operators are programmming operators that harbor no differences in programming format between C++ and Javascript, added to the fact that it is easily understandable. Since the programming operators were already explained to us last year for C++ refreshing on the topic is the only thing needed to do and easily done considering its simplicity.
+
+## List at least 5 topics that you know and can describe but needs further practice/discussion and why.  The why should be per topic listed.  
+
+## Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
+
+## In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?
